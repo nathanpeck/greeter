@@ -1,0 +1,17 @@
+{
+  "name": "greeter",
+  "version": "1.0.0",
+  "description": "Simple microservice that returns greeting phrase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
